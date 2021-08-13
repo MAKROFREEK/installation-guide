@@ -132,12 +132,24 @@ First open a terminal and enter xrandr.
 
 ![xrandr](xrandr.png)
 
-Once you've determined which monitor is your main replace every instance of DP-2 with your monitor. Ex: HDMI0, HDMI2, DPI-1, DP-0 etc.
+Once you've determined which monitor is yours copy it somewhere, memorize it, save it. 
+
+Next you're gonna want to open up an editor vim, neovim, sublime, geany, vscode doesn't matter.
+
+You're gonna navigate to ~/.config and youre gonna open these files: 
+
+* ~/.config/i3/config
+
+* ~/.config/polybar/config
+
+Find in the files where it says **DP-2** and replace with your main monitor. 
+
+*And if you have two or more monitors I recommend also replacing HDMI-0 with your second monitor.*
 
 ![replacedp2](replacedp2.png)
 
 
-Reboot **or** logout **and** switch to i3 on your login.
+Reboot **or** logout **and** switch to i3 on your login manager. 
 
 Finished
 ===========================
