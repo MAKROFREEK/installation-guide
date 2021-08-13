@@ -157,6 +157,15 @@ Find in the files where it says **DP-2** and replace with your main monitor.
 
 Reboot **or** logout **and** switch to i3 on your login manager.
 
+
+If the theme has a boot theme
+===========================
+
+/boot/grub/themes/default/
+
+boot grub change lalal 
+
+
 Finished
 ===========================
 
