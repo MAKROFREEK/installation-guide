@@ -4,8 +4,6 @@
 
 First time writing this kind of guide I'm gonna make it as simple as possible to limit the amount of questions asked, that said I'm genuinely the worst candidate to explain how anything works. So bare with me.
 
-Any questions please ask, I want to make this guide as well as I possibly can. 
-
 
 
 
@@ -142,7 +140,7 @@ You're gonna navigate to ~/.config and youre gonna open these files:
 
 * ~/.config/i3/config
 
-        In this file you want to check in keybindings for rofi, xrandr outputs, and where workspaces are kept.  Obviously a findall and replace all function is best here but if you don't know how, but if you don't know how I made it pretty easy to find all the stuff you have to do change, just  look for the big commented out **IMPORTANT** text and the "DP-2" you need to replace with your monitor follows.
+        In this file you want to check in keybindings for rofi, xrandr outputs, and where workspaces are kept.  Obviously a findall and replace all function is best here, but if you don't know how I made it pretty easy to find all the locations you should look for. I've made a big commented out **IMPORTANT** text, find that and the "DP-2" you need to replace with your monitor follows.
 
 * ~/.config/polybar/config
     
