@@ -4,6 +4,8 @@
 
 First time writing this kind of guide I'm gonna make it as simple as possible to limit the amount of questions asked, that said I'm genuinely the worst candidate to explain how anything works. So bare with me.
 
+Any questions please ask, I want to make this guide as well as I possibly can. 
+
 
 
 
