@@ -140,7 +140,13 @@ You're gonna navigate to ~/.config and youre gonna open these files:
 
 * ~/.config/i3/config
 
+        In this file you want to check in keybindings for rofi, xrandr outputs, and where workspaces are kept.  Obviously a findall and replace all function is best here but if you don't know how, but if you don't know how I made it pretty easy to find all the stuff you have to do change, just  look for the big commented out **IMPORTANT** text and the "DP-2" you need to replace with your monitor follows.
+
 * ~/.config/polybar/config
+    
+    
+        In this file you want to look for [bar/main] and [bar/sensors]. Swap DP-2 with your monitor.
+        
 
 Find in the files where it says **DP-2** and replace with your main monitor.
 
