@@ -1,2 +1,1 @@
-# installation-guide
-wip installation guide for my dots
+Installation Guide for my Dotfiles.
