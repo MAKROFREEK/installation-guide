@@ -22,7 +22,7 @@ Dependencies
 
 Assuming you know how to use your package manager. apt-get yay pacman etc.
 
-You'll want to download and install these dependencies they're quite popular and very customizable so feel free to give my dots a good editor or two if you'd like but for now
+You'll want to download and install these dependencies they're quite popular and very customizable so feel free to give my dots a good edit or two if you'd like but for now
 
 
 
