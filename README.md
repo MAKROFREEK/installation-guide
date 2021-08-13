@@ -29,43 +29,29 @@ You'll want to download and install these dependencies they're quite popular and
 
 
 
-* Kitty (I can provide color confs for your any terminal if requested)
+* Kitty 
 
-Kitty is my prefered terminal. (terminal emulator technically.) 
-
-* Dunst
-
-Solid notification daemon, highly customizable.
+* Dunst (Solid notification daemon, highly customizable.)
 
 * polybar-git
 
-Git version of polybar.
-
 * BetterDiscord 
 
-**(optional)** I use this in order to get the fancy shmancy css to work on discord.
+**(optional)** (only necessary if you want to use the custom css for discord.)
 
 * betterlockscreen
 
-Lock script depends on this.
-
 * i3lock-color
 
-Lock script depends on this.
-
 * i3-gaps
-* 
-**(optional)** If you want my desktop for desktop setup you will need i3-gaps.
+
+**(optional)** (If you want my desktop for desktop setup you will need i3-gaps.)
 
 * rofi
 
-Used for various menus primarily powermenu and the launcher.
-
 * picom-ibhagwan-git
 
-Super dope fork of picom, used for shadows and other eye candies. 
 
-* 
 
 
 
@@ -109,17 +95,40 @@ It will overrite some files so when it asks to replace just click "replace all" 
 
 ![replaceall](media/replaceall.png)
 
-Just a reminder your home folder /home/"your name"/ not just /home/. 
+Just a reminder your home folder is /home/"your name"/ not just /home/
 
-In my case it is /home/christian/.
+In my case it is /home/christian/
 
 
-**Installing Fonts**
+Installing Fonts
 ===========================
+
+Now back to the fonts. Back in the zip, copy the fonts folder into .local/share/fonts
+
+![fontsinstall](media/fontsinstall.png)
+
+
 After installing copying the "fonts" folder to .local/share/fonts/
+
+Open up yourself a terminal (kitty preferably)
 
 Run this command to rebuild your font cache.
 
 `fc-cache -f -v`
+
+It will look something like this. 
+
+![fontrebuildcache](media/fontrebuildcache.png)
+
+
+Finished
+===========================
+
+After that, should be it. Logout log back in (if youre using a login manager) switch to i3 and boom you're set. 
+
+If you are curious about short cuts for my config just open (with any editor of your choosing) ~/.config/i3/config
+
+I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like.
+
 
 
