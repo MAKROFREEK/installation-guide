@@ -22,20 +22,20 @@ Should be available from your package manager.
 Dependencies
 ===========================
 
-Assuming you know how to use your package manager. apt-get yay pacman etc.   
-  
-You'll want to download and install these dependencies they're quite popular and very customizable so feel free to give my dots a good editor or two if you'd like but for now 
+Assuming you know how to use your package manager. apt-get yay pacman etc.
+
+You'll want to download and install these dependencies they're quite popular and very customizable so feel free to give my dots a good editor or two if you'd like but for now
 
 
 
 
-* Kitty 
+* Kitty
 
 * Dunst (Solid notification daemon, highly customizable.)
 
 * polybar-git
 
-* BetterDiscord 
+* BetterDiscord
 
 **(optional)** (only necessary if you want to use the custom css for discord.)
 
@@ -45,7 +45,7 @@ You'll want to download and install these dependencies they're quite popular and
 
 * i3-gaps
 
-**(optional)** (If you want my desktop for desktop setup you will need i3-gaps.)
+**(technically you can use these files, this theme on most desktop environments, window managers you want, but this guide is for my setup specifically)**
 
 * rofi
 
@@ -58,15 +58,15 @@ You'll want to download and install these dependencies they're quite popular and
 Backup
 ===========================
 
-This part is technically optional, but seriously recommended if youre prone to screwing something up. 
+This part is technically optional, but seriously recommended if youre prone to screwing something up.
 
 For starters I always recommend making backups first just because I myself have a tendency of screwing things up. 
 
-I use Timeshift and I think it's safe to say it's highly recommeneded. 
+I use Timeshift and I think it's safe to say it's highly recommeneded.
 
-It's already in whatever package manager you're using so just sudo apt-get timeshift, or yay timeshift or pacman -S timeshift, or whatever package manager youre using. Just get Timeshift installed. 
+It's already in whatever package manager you're using so just sudo apt-get timeshift, or yay timeshift or pacman -S timeshift, or whatever package manager youre using. Just get Timeshift installed.
 
-Once 
+Once
 
 
 Drag and drop
@@ -74,7 +74,7 @@ Drag and drop
 
 PLEASE PROCEED **ONLY** AFTER MAKING A **BACKUP**.
 
-**Leave out the fonts folder, we will deal with them later.** 
+**Leave out the fonts folder, we will deal with them later.**
 
 **You want to copy the following:**
 
