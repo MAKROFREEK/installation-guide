@@ -10,9 +10,7 @@ First time writing this kind of guide I'm gonna make it as simple as possible to
 Things you will need:
 ===========================
 
-* [Timeshift](https://github.com/teejee2008/timeshift) | Or any tool for making backups I prefer Timeshift.
-
-Should be available from your package manager.
+* [Timeshift](https://github.com/teejee2008/timeshift) | Or any tool for making backups I prefer Timeshift. Should be available from your package manager.
 
 * A couple of dependencies.
 
@@ -51,6 +49,7 @@ You'll want to download and install these dependencies they're quite popular and
 
 * picom-ibhagwan-git
 
+* xrandr
 
 
 
@@ -122,6 +121,24 @@ It will look something like this.
 ![fontrebuildcache](fontrebuildcache.png)
 
 
+Getting display to work
+===========================
+
+My resolution is 1920x1080.
+
+We will need find your resolution and monitor to get correct displays.
+
+First open a terminal and enter xrandr.
+
+![xrandr](xrandr.png)
+
+Once you've determined which monitor is your main replace every instance of DP-2 with your monitor. Ex: HDMI0, HDMI2, DPI-1, DP-0 etc.
+
+![replacedp2](replacedp2.png)
+
+
+Reboot **or** logout **and** switch to i3 on your login.
+
 Finished
 ===========================
 
@@ -129,7 +146,7 @@ After that, should be it. Logout log back in (if youre using a login manager) sw
 
 If you are curious about short cuts for my config just open (with any editor of your choosing) ~/.config/i3/config
 
-I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like. Enjoy.
+I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like.
 
 
 
