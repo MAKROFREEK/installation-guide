@@ -41,7 +41,7 @@ You'll want to download and install these dependencies they're quite popular and
 
 * betterlockscreen
 
-* i3lock-color
+* i3lock-color or i3lock-fancy
 
 * i3-gaps
 
@@ -60,13 +60,14 @@ Backup
 
 This part is technically optional, but seriously recommended if youre prone to screwing something up.
 
-For starters I always recommend making backups first just because I myself have a tendency of screwing things up. 
-
 I use Timeshift and I think it's safe to say it's highly recommeneded.
 
 It's already in whatever package manager you're using so just sudo apt-get timeshift, or yay timeshift or pacman -S timeshift, or whatever package manager youre using. Just get Timeshift installed.
 
-Once
+Here's a guide if you're unsure how to use Timeshift.  
+
+https://ostechnix.com/how-to-backup-and-restore-linux-system-with-timeshift/
+
 
 
 Drag and drop
