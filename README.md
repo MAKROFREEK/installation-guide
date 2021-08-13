@@ -129,7 +129,7 @@ After that, should be it. Logout log back in (if youre using a login manager) sw
 
 If you are curious about short cuts for my config just open (with any editor of your choosing) ~/.config/i3/config
 
-I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like.
+I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like. Enjoy.
 
 
 
