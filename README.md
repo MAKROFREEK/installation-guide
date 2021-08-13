@@ -29,7 +29,7 @@ You'll want to download and install these dependencies they're quite popular and
 
 * Kitty
 
-* Dunst (Solid notification daemon, highly customizable.)
+* Dunst
 
 * polybar-git
 
@@ -63,7 +63,7 @@ I use Timeshift and I think it's safe to say it's highly recommeneded.
 
 It's already in whatever package manager you're using so just sudo apt-get timeshift, or yay timeshift or pacman -S timeshift, or whatever package manager youre using. Just get Timeshift installed.
 
-Here's a guide if you're unsure how to use Timeshift.  
+Here's a guide if you're unsure how to use Timeshift.
 
 https://ostechnix.com/how-to-backup-and-restore-linux-system-with-timeshift/
 
@@ -116,7 +116,7 @@ Run this command to rebuild your font cache.
 
 `fc-cache -f -v`
 
-It will look something like this. 
+It will look something like this.
 
 ![fontrebuildcache](fontrebuildcache.png)
 
@@ -132,31 +132,33 @@ First open a terminal and enter xrandr.
 
 ![xrandr](xrandr.png)
 
-Once you've determined which monitor is yours copy it somewhere, memorize it, save it. 
+Once you've determined which monitor is yours copy it somewhere, memorize it, save it.
 
 Next you're gonna want to open up an editor vim, neovim, sublime, geany, vscode doesn't matter.
 
-You're gonna navigate to ~/.config and youre gonna open these files: 
+You're gonna navigate to ~/.config and youre gonna open these files:
 
 * ~/.config/i3/config
 
 * ~/.config/polybar/config
 
-Find in the files where it says **DP-2** and replace with your main monitor. 
+Find in the files where it says **DP-2** and replace with your main monitor.
 
 *And if you have two or more monitors I recommend also replacing HDMI-0 with your second monitor.*
 
 ![replacedp2](replacedp2.png)
 
 
-Reboot **or** logout **and** switch to i3 on your login manager. 
+Reboot **or** logout **and** switch to i3 on your login manager.
 
 Finished
 ===========================
 
-After that, should be it. Logout log back in (if youre using a login manager) switch to i3 and boom you're set. 
+After that, should be it. Logout log back in (if youre using a login manager) switch to i3 and boom you're set.
 
-If you are curious about short cuts for my config just open (with any editor of your choosing) ~/.config/i3/config
+If you are curious about shortcuts for my config just open (with any editor of your choosing) ~/.config/i3/config
+
+Some common ones are mod4+Enter to bring up a terminal. Mod4+d to open up the rofi launcher. You'll want to go through that config 100%.
 
 I prettied up my config recently so should be a breeze to go in and out changing whatever you'd like.
 
