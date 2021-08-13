@@ -86,14 +86,14 @@ PLEASE PROCEED **ONLY** AFTER MAKING A **BACKUP**.
 
 * Pictures
 
-![filescopy](media/filescopy.png)
+![filescopy](filescopy.png)
 
 
 Paste into your home folder.
 
 It will overrite some files so when it asks to replace just click "replace all" or "yes to all" or whatever prompt comes your way.
 
-![replaceall](media/replaceall.png)
+![replaceall](replaceall.png)
 
 Just a reminder your home folder is /home/"your name"/ not just /home/
 
@@ -105,7 +105,7 @@ Installing Fonts
 
 Now back to the fonts. Back in the zip, copy the fonts folder into .local/share/fonts
 
-![fontsinstall](media/fontsinstall.png)
+![fontsinstall](fontsinstall.png)
 
 
 After installing copying the "fonts" folder to .local/share/fonts/
@@ -118,7 +118,7 @@ Run this command to rebuild your font cache.
 
 It will look something like this. 
 
-![fontrebuildcache](media/fontrebuildcache.png)
+![fontrebuildcache](fontrebuildcache.png)
 
 
 Finished
