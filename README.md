@@ -168,6 +168,12 @@ open terminal blah blah
 
 cp dotfiles/boot/ > /boot/grub/themes/default/ 
 
+Applying icons and themes
+===========================
+**IGNORE THIS SECTION PLEASE**
+
+lxdsettings qt5settings
+
 
 Finished
 ===========================
