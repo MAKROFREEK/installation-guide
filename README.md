@@ -43,6 +43,10 @@ You'll want to download and install these dependencies they're quite popular and
 
 * i3-gaps
 
+* xrandr
+
+* feh
+
 **(technically you can use these files, this theme on most desktop environments, window managers you want, but this guide is for my setup specifically)**
 
 * rofi
