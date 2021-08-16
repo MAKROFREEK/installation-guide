@@ -180,8 +180,7 @@ You can find them in your package manager.
 
 Here's a screenshot.
 
-![image](lxappearance qt5ct.png)
-
+![lxappearance-qt5ct](https://user-images.githubusercontent.com/84992148/129630006-1432a37e-31b3-4281-8c63-2157aa74a5a0.png)
 
 It's pretty straight forward, you just choose your icons, themes, cursors etc. Hit apply and you're on your way.
 
