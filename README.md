@@ -174,9 +174,16 @@ cp dotfiles/boot/ > /boot/grub/themes/default/
 
 Applying icons and themes
 ===========================
-**IGNORE THIS SECTION PLEASE**
 
-lxdsettings qt5settings
+I use lxapperance and qt5ct for applying themes. 
+You can find them in your package manager.
+
+Here's a screenshot.
+
+![lxappearance qt5ct](lxappearance qt5ct.png)
+
+
+It's pretty straight forward, you just choose your icons, themes, cursors etc. Hit apply and you're on your way.
 
 
 Finished
