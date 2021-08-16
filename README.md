@@ -55,6 +55,10 @@ You'll want to download and install these dependencies they're quite popular and
 
 * xrandr
 
+* qt5ct
+
+* lxapperance
+
 
 
 
